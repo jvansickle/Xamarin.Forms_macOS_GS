@@ -96,6 +96,7 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="MacWindowManager.cs" />
   </ItemGroup>
   <Import Project="..\XamFormsPlayground\XamFormsPlayground.projitems" Label="Shared" Condition="Exists('..\XamFormsPlayground\XamFormsPlayground.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />

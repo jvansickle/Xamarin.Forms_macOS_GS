@@ -24,7 +24,7 @@ namespace XamFormsPlayground.macOS
         public override void DidFinishLaunching(NSNotification notification)
         {
             Forms.Init();
-            LoadApplication(new App());
+            LoadApplication(new App(new MacWindowManager()));
             base.DidFinishLaunching(notification);
         }
 

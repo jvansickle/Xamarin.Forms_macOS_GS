@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamFormsPlayground.Views.FirstPage">
     <ContentPage.Content>
-        <Label VerticalOptions="Center"
+        <StackLayout>
+            <Label VerticalOptions="Center"
                HorizontalOptions="Center"
                Text="Hello World" />
+            <Button Text="New Window With Global, Static Style"
+                    Command="{Binding OpenGlobalStyleWindow}"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
